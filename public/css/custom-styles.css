@@ -1,0 +1,38 @@
+.navbar .navbar-brand {
+    height: 100%!important;
+}
+
+.logo-aldea {
+    height: 80px;
+}
+
+.btn-primary{
+    background-color: #1b4336!important;
+    box-shadow: 0 2px 2px 0 rgba(27, 67, 54, 0.14), 0 3px 1px -2px rgba(27, 67, 54, 0.2), 0 1px 5px 0 rgba(27, 67, 54, 0.12)!important;
+
+}
+
+.btn-primary:hover {
+    box-shadow: 0px 3px 22px -3px rgb(17, 161, 74),0px 5px 21px -7px rgb(17, 161, 74),0px 2px 3px -3px rgb(17, 161, 74)!important;
+}
+
+.btn-secondary {
+    background-color: #11A14A!important;
+    border-color: #11A14A!important;
+}
+.btn-secondary:hover {
+    background-color: #005f20!important;
+    color: #fff!important;
+    border-color: #005f20!important;
+}
+
+.title-hero{
+    color: #11a14b!important;
+}
+
+.card-header {
+    background: linear-gradient(90deg, rgba(0,95,32,1) 0%, rgba(17,161,75,1) 100%)!important;
+}
+.card-header-primary {
+    box-shadow: 0 2px 2px 0 rgba(27, 67, 54, 0.14), 0 3px 1px -2px rgba(27, 67, 54, 0.2), 0 1px 5px 0 rgba(27, 67, 54, 0.12)!important;
+}
