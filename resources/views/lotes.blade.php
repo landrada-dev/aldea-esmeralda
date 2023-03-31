@@ -3,8 +3,6 @@
 @push('styles')
 <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/mapplic.css') }}" rel="stylesheet" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 @endpush
 
 @section('content')
@@ -63,7 +61,7 @@
         <div class="navbar-translate">
             <a class="navbar-brand" href="/">
                 <div class="logo-image">
-                    <img src="{{asset('img/logo/logo-amaia.png')}} " class="img-fluid">
+                    <img src="{{asset('img/logo/logo-aldea-esmeralda-verde.svg')}} " class="img-fluid">
                 </div>
             </a>
             <button type="button" class="ml-auto navbar-toggler" data-toggle="collapse" data-target="#navigation-example2">
@@ -134,7 +132,7 @@
         <div class="navbar-translate">
             <a class="navbar-brand" href="/">
                 <div class="logo-image">
-                    <img src="{{asset('img/logo/logo-amaia.png')}} " class="img-fluid">
+                    <img src="{{asset('img/logo/logo-aldea-esmeralda-verde.svg')}} " class="img-fluid">
                 </div>
             </a>
             <button type="button" class="ml-auto navbar-toggler" data-toggle="collapse" data-target="#navigation-example2">
@@ -303,7 +301,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         var map = $('#mapplic').mapplic({
-            source: 'data/lots.json',
+            source: 'data/lots-test.json',
             sidebar: false,
             maxheight: 1230,
             fullscreen: false,

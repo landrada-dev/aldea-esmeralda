@@ -1,5 +1,6 @@
 .navbar .navbar-brand {
     height: 100%!important;
+    padding: 0!important;
 }
 
 .logo-aldea {
@@ -9,6 +10,7 @@
 .btn-primary{
     background-color: #1b4336!important;
     box-shadow: 0 2px 2px 0 rgba(27, 67, 54, 0.14), 0 3px 1px -2px rgba(27, 67, 54, 0.2), 0 1px 5px 0 rgba(27, 67, 54, 0.12)!important;
+    border-color: #1b4336!important;
 
 }
 
@@ -35,4 +37,13 @@
 }
 .card-header-primary {
     box-shadow: 0 2px 2px 0 rgba(27, 67, 54, 0.14), 0 3px 1px -2px rgba(27, 67, 54, 0.2), 0 1px 5px 0 rgba(27, 67, 54, 0.12)!important;
+}
+
+.features-5:after {
+    background: rgba(0, 0, 0, 0.55)!important;
+    z-index: 0!important;
+}
+
+.wrapper-amenities {
+    z-index: 5!important;
 }

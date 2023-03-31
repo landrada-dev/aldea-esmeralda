@@ -268,23 +268,23 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <div class="row d-flex justify-content-center d-lg-none sm-multiversidad">
+                <div class="col-12 wrapper-amenities">
+                    <!-- <div class="row d-flex justify-content-center d-lg-none sm-multiversidad">
                         <div class="col-sm-4">
                             <div class="info">
                                 <div class="icon">
-                                    <img class="img-fluid" src="{{asset('img/amenidades/parque.svg')}}" alt="logo-amaia" width="120px">
+                                    <img class="img-fluid" src="{{asset('img/amenidades/canal-de-nado.svg')}}" alt="logo-amaia" width="120px">
                                 </div>
                                 <h4 class="info-title">{{__('messages.icontitulo')}}</h4>
                                 <p>{{__('messages.iconsubtitulo')}}</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="info">
                                 <div class="icon">
-                                    <img class="img-fluid" src="{{asset('img/iconos/zona-reposo.png')}}" alt="logo-amaia" width="120px">
+                                    <img class="img-fluid" src="{{asset('img/amenidades/parque.svg')}}" alt="logo-amaia" width="120px">
                                 </div>
                                 <h4 class="info-title">{{__('messages.icontitulo2')}}</h4>
                                 <p>{{__('messages.iconsubtitulo2')}}</p>
@@ -293,7 +293,7 @@
                         <div class="col-sm-4">
                             <div class="info">
                                 <div class="icon">
-                                    <img class="img-fluid" src="{{asset('img/iconos/zona-contacto.png')}}" alt="logo-amaia" width="120px">
+                                    <img class="img-fluid" src="{{asset('img/amenidades/terraza-casa-club.svg')}}" alt="logo-amaia" width="120px">
                                 </div>
                                 <h4 class="info-title">{{__('messages.icontitulo3')}}</h4>
                                 <p>{{__('messages.iconsubtitulo3')}}</p>
@@ -302,7 +302,7 @@
                         <div class="col-sm-4">
                             <div class="info">
                                 <div class="icon">
-                                    <img class="img-fluid" src="{{asset('img/iconos/zona-zen.png')}}" alt="logo-amaia" width="120px">
+                                    <img class="img-fluid" src="{{asset('img/amenidades/caseta-de-seguridad.svg')}}" alt="logo-amaia" width="120px">
                                 </div>
                                 <h4 class="info-title">{{__('messages.icontitulo4')}}</h4>
                                 <p>{{__('messages.iconsubtitulo4')}}</p>
@@ -313,7 +313,7 @@
                         <div class="col-sm-4">
                             <div class="info">
                                 <div class="icon">
-                                    <img class="img-fluid" src="{{asset('img/iconos/area-deportiva.png')}}" alt="logo-amaia" width="120px">
+                                    <img class="img-fluid" src="{{asset('img/amenidades/estacionamiento.svg')}}" alt="logo-amaia" width="120px">
                                 </div>
                                 <h4 class="info-title">{{__('messages.icontitulo5')}}</h4>
                                 <p>{{__('messages.iconsubtitulo5')}}</p>
@@ -322,7 +322,7 @@
                         <div class="col-sm-4">
                             <div class="info">
                                 <div class="icon">
-                                    <img class="img-fluid" src="{{asset('img/iconos/zona-astral.png')}}" alt="logo-amaia" width="120px">
+                                    <img class="img-fluid" src="{{asset('img/amenidades/areas-multiples.svg')}}" alt="logo-amaia" width="120px">
                                 </div>
                                 <h4 class="info-title">{{__('messages.icontitulo6')}}</h4>
                                 <p>{{__('messages.iconsubtitulo6')}}</p>
@@ -331,7 +331,7 @@
                         <div class="col-sm-4">
                             <div class="info">
                             <div class="icon">
-                            <img class="img-fluid" src="{{asset('img/amenidades/parque.svg')}}" alt="logo-amaia" width="120px">
+                            <img class="img-fluid" src="{{asset('img/amenidades/canal-de-nado.svg')}}" alt="logo-amaia" width="120px">
                         </div>
                         <h4 class="info-title">{{__('messages.icontitulo')}}</h4>
                         <p>{{__('messages.iconsubtitulo')}}</p>

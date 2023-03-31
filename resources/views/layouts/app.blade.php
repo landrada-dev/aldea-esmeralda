@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('img/favicon.png')}}">
-    <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('img/favicon.svg')}}">
+    <link rel="icon" type="image/png" href="{{asset('img/favicon.svg')}}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         Aldea Esmeralda - Lotes residenciales
@@ -20,6 +20,8 @@
     <meta property="og:url" content="" />
     <meta property="og:image" content="{{asset('img/cover-aldea-esmeralda.jpg')}}" />
     <meta property="og:type" content="website" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -84,7 +86,6 @@
                                 <img src="{{asset('img/logo/logo-aldea-esmeralda-verde.png')}} " class="img-fluid">
                             </div>
                         </a>
-                        <h6 class="text-uppercase mb-2">{{config('app.name')}}</h6>
                         <p class="mb-4 pb-2">
                             {{__('messages.footerdesc')}}
                         </p>
@@ -93,7 +94,7 @@
                         <h6 class="text-sm">Explora</h6>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
-                                <a href="{{route('landing')}}" class="nav-link">
+                                <a class="nav-link text-secondary" href="{{route('landing')}}">
                                     {{__('messages.inicio')}}
                                 </a>
                             </li>

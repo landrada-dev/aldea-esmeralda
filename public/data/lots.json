@@ -62,9 +62,21 @@
 		{
 			"id": "layer1",
 			"title": "Lotes",
-			"map": "data/MAP_ALDEA_LOTES_2.svg",
-			"map-min": "data/MAP_ALDEA_LOTES_2.svg",
+			"map": "data/MAP_ALDEA_LOTES.svg",
+			"map-min": "data/MAP_ALDEA_LOTES.svg",
 			"locations": [
+				{
+					"id": "L-1",
+					"title": "LOTE: 1",
+					"pin": "hidden",
+					"about": "LOTE: 1",
+					"description": "<p>Superficie: <b>450 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>12 MSI -  $24,900.00</option><option value=''>24 MSI -  $12,450.00</option><option value=''>36 MSI -  $8,300.00</option></select>",
+					"category": "disponible",
+					"link": "https://cotizador.landrada.mx/",
+					"x": "",
+					"y": "",
+					"image": "img/image-lote.jpg"
+				},
 				{
 					"id": "L-112",
 					"title": "LOTE: 112 ",
@@ -1321,8 +1333,20 @@
 					"description": "<p>Superficie: <b>450 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>12 MSI -  $24,900.00</option><option value=''>24 MSI -  $12,450.00</option><option value=''>36 MSI -  $8,300.00</option></select>",
 					"category": "vendido",
 					"link": "https://cotizador.landrada.mx/",
-					"x": "",
-					"y": "",
+					"x": 0.8280,
+					"y": 0.5751,
+					"image": "img/image-lote.jpg"
+				},
+				{
+					"id": "L-20",
+					"title": "LOTE: 19 ",
+					"pin": "hidden",
+					"about": "LOTE: 19 ",
+					"description": "<p>Superficie: <b>450 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>12 MSI -  $24,900.00</option><option value=''>24 MSI -  $12,450.00</option><option value=''>36 MSI -  $8,300.00</option></select>",
+					"category": "vendido",
+					"link": "https://cotizador.landrada.mx/",
+					"x": 0.8264,
+					"y": 0.5988,
 					"image": "img/image-lote.jpg"
 				},
 				{
