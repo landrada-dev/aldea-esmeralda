@@ -614,9 +614,9 @@
 <section class="my-10 py-5 bg-gradient-white position-relative" style="">
     <span class="mask bg-gradient-dark opacity-8"></span>
     <div class="container position-relative z-index-2">
-        <div class="row justify-content-between">
+        <div class="row d-flex justify-content-between align-items-center">
             <div class="col-12 col-md-9 m-auto">
-                <h3 class="text-black mb-lg-0 mb-5">
+                <h3 class="text-black text-legend">
                     {{__('messages.ctaLegend')}}
                 </h3>
             </div>

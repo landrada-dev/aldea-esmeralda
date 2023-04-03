@@ -29,7 +29,14 @@
 }
 
 .title-hero{
-    color: #11a14b!important;
+    color: #ffffff!important;
+    font-size: 32px;
+}
+
+@media (min-width: 768px) {
+    .title-hero {
+        font-size: 48px;
+    }
 }
 
 .card-header {
@@ -46,4 +53,18 @@
 
 .wrapper-amenities {
     z-index: 5!important;
+}
+
+.text-legend {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .text-legend {
+        text-align: start;
+    }
+}
+
+.header-filter::before {
+    background: rgba(0, 0, 0, 0.65)!important;
 }
