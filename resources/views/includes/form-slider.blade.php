@@ -11,16 +11,16 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="form-group">
-                            <input type="text" name="fullname" id="fullname" value="{{old('fullname')}}" placeholder="Nombre completo" class="form-control @error('fullname') is-invalid @enderror">
-                            @error('fullname')
+                            <input type="text" name="fullname_" id="fullname_" value="{{old('fullname_')}}" placeholder="Nombre completo" class="form-control @error('fullname_') is-invalid @enderror">
+                            @error('fullname_')
                                 <strong class='text-danger'>{{ $message }}</strong>
                             @enderror
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
-                            <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Teléfono" class="form-control @error('phone') is-invalid @enderror" required>
-                                @error('phone')
+                            <input type="text" name="phone_" id="phone_" value="{{old('phone_')}}" placeholder="Teléfono" class="form-control @error('phone_') is-invalid @enderror" required>
+                                @error('phone_')
                             <span class="alert alert-danger alert-dismissible fade show invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -32,8 +32,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
-                            <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="{{__('messages.correo')}}" class="form-control @error('email') is-invalid @enderror" required>
-                            @error('email')
+                            <input type="email" name="email_" id="email_" value="{{old('email_')}}" placeholder="{{__('messages.correo')}}" class="form-control @error('email_') is-invalid @enderror" required>
+                            @error('email_')
                             <span class="alert alert-danger alert-dismissible fade show invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">

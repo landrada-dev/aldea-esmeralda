@@ -17,11 +17,15 @@ class LeadController extends Controller
     public function store(Request $request)
     {
         $messages = [
-			'fullname.required' => 'Es necesario ingresar tu nombre'
+			'fullname_.required' => 'Campo obligatorio',
+            'phone_.required' => 'Campo obligatorio',
+            'email_.required' => 'Campo obligatorio'
 
 		];
 		$rules = [
-			'fullname' => 'required'
+			'fullname_' => 'required',
+            'phone_' => 'required',
+            'email_' => 'required'
 		];
         
 
@@ -32,18 +36,18 @@ class LeadController extends Controller
         // ]);
 
         $response = Http::post('https://api.lagunaskuche.mx/leads', [
-            'fullname' => $request->input('fullname'),
-            'email' => $request->input('email'),
+            'fullname' => $request->input('fullname_'),
+            'email' => $request->input('email_'),
+            'phone' => $request->input('phone_'),
             'origin' => 'aldeaesmeralda.com'
 
         ]);
         $dataJson = $response->json();
-        // dd($dataJson);
 
         if($response->successful()) {
             return redirect()->route('landing')->withStatus(__('Hemos recibido tu contacto'));
         } else {
-            return redirect()->route('landing')->withErrors(['isAlready' => 'Ooop! El correo ya existe!']);
+            return redirect()->route('landing')->withErrors(['isAlready' => 'Ooop! ' . $dataJson['message'] ]);
         }
 
 
@@ -82,7 +86,7 @@ class LeadController extends Controller
         if($response->successful()) {
             return redirect('/#contactanos')->with('statusContact', 'Hemos recibido tu contacto');
         } else {
-            return redirect('/#contactanos')->withErrors(['errorContact' => 'Ooop! El correo ya existe!']);
+            return redirect('/#contactanos')->withErrors(['errorContact' => 'Ooop! ' . $dataJson['message']]);
         }
 
 
