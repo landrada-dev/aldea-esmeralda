@@ -302,12 +302,12 @@
     $(document).ready(function() {
         var map = $('#mapplic').mapplic({
             source: 'data/lots-test.json',
-            sidebar: false,
+            sidebar: true,
             maxheight: 1230,
             fullscreen: false,
             maxscale: 1.8,
             lightbox: true,
-            developer: true,
+            developer: false,
         });
     });
 </script>
