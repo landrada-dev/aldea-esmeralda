@@ -87,11 +87,11 @@
                                     {{__('messages.pago')}}
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link text-secondary" href="{{ route('lotes') }}">
                                     {{__('messages.verlotes')}}
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
 
