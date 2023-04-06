@@ -51,10 +51,10 @@
                                 {{__('messages.pago')}}
                             </a>
                         </li>
-                        <!-- <li class="button-container nav-item iframe-extern">
+                        <li class="button-container nav-item iframe-extern">
                             <a href="{{route('lotes')}}" class="btn  btn-primary   btn-round btn-block">{{__('messages.verlotes')}}
                             </a>
-                        </li> -->
+                        </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -122,10 +122,10 @@
                                 {{__('messages.pago')}}
                             </a>
                         </li>
-                        <!-- <li class="button-container nav-item iframe-extern">
+                        <li class="button-container nav-item iframe-extern">
                             <a href="{{route('lotes')}}" class="btn  btn-primary   btn-round btn-block">{{__('messages.verlotes')}}
                             </a>
-                        </li> -->
+                        </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
