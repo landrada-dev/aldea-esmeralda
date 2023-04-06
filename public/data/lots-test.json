@@ -1261,8 +1261,8 @@
           "description": "<p>Superficie: <b>450 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>12 MSI -  $24,900.00</option><option value=''>24 MSI -  $12,450.00</option><option value=''>36 MSI -  $8,300.00</option></select>",
           "category": "disponible",
           "link": "https://cotizador.landrada.mx/",
-          "x": 0.5616,
-          "y": 0.2448,
+          "x": 0.5914,
+          "y": 0.2469,
           "image": "img/image-lote.jpg"
         },
         {
@@ -2509,7 +2509,7 @@
           "description": "<p>Superficie: <b>450 m<sup>2</sup></b></p>Precio: </b><select class='form-select'><option selected disabled>Selecciona una opción</option><option value=''>12 MSI -  $24,900.00</option><option value=''>24 MSI -  $12,450.00</option><option value=''>36 MSI -  $8,300.00</option></select>",
           "category": "vendido",
           "link": "https://cotizador.landrada.mx/",
-          "x": "0.0.3960",
+          "x": 0.3960,
           "y": 0.4257,
           "image": "img/image-lote.jpg"
         },
