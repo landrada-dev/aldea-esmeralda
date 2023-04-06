@@ -238,7 +238,7 @@
     <div class="cd-section pt-4 pb-4">
         <div class="container">
             <div class="row center-section">
-                <div class="col-lg-4 my-auto">
+                <div class="col-md-4 my-auto">
                     <h2 class="title mb-4">{{__('messages.conocenos')}}</h2>
                     <p class="lead">{{__('messages.conocenossub')}}</p>
                     <div class="buttons">
@@ -363,7 +363,7 @@
         </div>
         <div class="row center-section">
 
-            <div class="col-md-6 my-auto ">
+            <div class="col-lg-6 my-auto ">
                 <div class="card">
                     <!-- <div class="card-header p-0 bg-primary">
                                 <h3 class="title text-center">Simulador de inversión</h3>
@@ -488,7 +488,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 ml-auto">
+            <div class="col-lg-6 ml-auto">
                 <div class="card">
                     <div class="iframe-container">
                         <img class="img-fluid card-img-bottom" src="{{asset('img/amenidades-aldea-esmeralda.jpg')}}" alt="">

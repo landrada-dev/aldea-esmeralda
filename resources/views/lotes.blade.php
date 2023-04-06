@@ -307,7 +307,7 @@
             fullscreen: false,
             maxscale: 1.8,
             lightbox: true,
-            developer: true,
+            developer: false,
         });
     });
 </script>
