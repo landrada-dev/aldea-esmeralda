@@ -3,6 +3,7 @@
 @push('styles')
 <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/mapplic.css') }}" rel="stylesheet" />
+<link href="{{ asset('css/custom-styles.css') }}" rel="stylesheet" />
 @endpush
 
 @section('content')

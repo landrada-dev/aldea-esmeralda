@@ -160,7 +160,6 @@
 
 				if(location.category === "disponible"){
 					this.link = $('<a>' + self.loc.more + '</a>').addClass('mapplic-popup-link').attr('href', '#').hide().appendTo(this.body);
-					console.log(self.o.linknewtab)
 					if (self.o.linknewtab) this.link.attr('target', '_blank');
 				} else{
 					this.link = $('<a>' + self.loc.sold + '</a>').addClass('mapplic-popup-link').hide().appendTo(this.body);
@@ -240,7 +239,6 @@
 					else this.image.hide();
 
 					if (location.category === "disponible") {
-						console.log(location.link);
 						this.link.attr('href', location.link).css('background-color', '').show();
 						this.link.attr('target', '_blank');
 						if (location.color) this.link.css('background-color', location.color);
@@ -415,8 +413,6 @@
 
 		// lightbox
 		function Lightbox() {
-
-			console.log('Aquí funciona el modal');
 			this.row = null;
 			this.el = null;
 
@@ -487,7 +483,6 @@
 				this.location = location;
 
 				this.title.text(location.title);
-				console.log(location.precio);
 				this.precio.html(location.precio);
 				this.desc.html(location.superficie);
 				this.coti.html(location.cotizacion);
