@@ -373,7 +373,7 @@
                         <div class="row text-center">
                             <div class="col-12 text-center">
                                 <h5 class="">{{__('messages.preciodes')}}</h5>
-                                <input class="" type="radio" name="locationProperty" id="locationProperty1" value="425000" checked hidden />
+                                <input class="" type="radio" name="locationProperty" id="locationProperty1" value="373500" checked hidden />
                                 <h2 class="" style="color: #34504b; font-size: 30px" id="price">
                                     Seleccione Ubicación
                                 </h2>
@@ -408,9 +408,9 @@
                                     <li class="rq-option">
                                         <input type="radio" name="type-pay" id="type-pay-1" value="12" checked /><label for="type-pay-1" class="option-label">12</label>
                                     </li>
-                                    <li class="rq-option">
+                                    {{-- <li class="rq-option">
                                         <input type="radio" name="type-pay" id="type-pay-2" value="18" /><label for="type-pay-2" class="option-label">18</label>
-                                    </li>
+                                    </li> --}}
                                     <li class="rq-option">
                                         <input type="radio" name="type-pay" id="type-pay-3" value="24" /><label for="type-pay-3" class="option-label">24</label>
                                     </li>

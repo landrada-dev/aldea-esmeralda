@@ -55,7 +55,7 @@ return [
     'mensualidad' => "Montly fee's from",
     'contado' => 'Full payment',
     'msi' => 'Monthly payments with no interest',
-    'ejemplo' => 'Example with a 500 m2 lot',
+    'ejemplo' => 'Example with a 450 m2 lot',
     'rodeado' => 'Surrounded by wonderful experiences',
 
     

@@ -309,19 +309,7 @@
 
     <!-- Control Center for Lugar alrededor: parallax effects, scripts for the example pages etc -->
     <script src="{{asset('js/material-kit.js?v=2.1.1')}}" type="text/javascript"></script>
-    <!-- <script>
-        var cantScroll = 0;
-        $(window).scroll(function() {
-            // calculate the percentage the user has scrolled down the page
-            var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-            $('.bar-long').css('width', scrollPercent + "%");
 
-            if (cantScroll == 0 && scrollPercent > 20) {
-                $('#loginModal').modal('show');
-                cantScroll++;
-            }
-        });
-    </script> -->
     <script>
         $(function() {
 

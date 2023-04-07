@@ -301,7 +301,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         var map = $('#mapplic').mapplic({
-            source: 'data/lots-test.json',
+            source: 'data/lots_v3.json',
             sidebar: true,
             maxheight: 1230,
             fullscreen: false,

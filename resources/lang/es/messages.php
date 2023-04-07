@@ -59,7 +59,7 @@ return [
     'mensualidad' => 'Mensualidad:',
     'contado' => 'De contado',
     'msi' => 'Meses sin intereses',
-    'ejemplo' => 'Ejemplo con lote de 500 m2',
+    'ejemplo' => 'Ejemplo con lote de 450 m2',
     'rodeado' => 'Rodeado de maravillosas experiencias',
 
     'nearbyPlaceTitle1' => 'Playas yucateca / Costa esmeralda',

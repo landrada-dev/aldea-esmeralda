@@ -68,3 +68,7 @@
 .header-filter::before {
     background: rgba(0, 0, 0, 0.65)!important;
 }
+
+.mapplic-tooltip-content {
+    max-height: 200px!important;
+}
