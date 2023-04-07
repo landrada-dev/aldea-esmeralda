@@ -2903,7 +2903,7 @@
           "pin": "hidden",
           "about": "LOTE: 237 SUPERFICIE: 450 m<sup>2</sup>",
           "description": "<p>Superficie: <b>450 m<sup>2</sup></b></p><p>Precio: <b>$373,500.00</b></p>Mensualidad*: </b><select class='form-select mt-2'><option selected disabled>Selecciona una opción</option><option value=''>12 MSI -  $24,900.00</option><option value=''>24 MSI -  $12,450.00</option><option value=''>36 MSI -  $8,300.00</option></select><small>Ej. Mensualidad después de pago del 20% de enganche<span class='text-danger'>*</span></small>",
-          "category": "disponible",
+          "category": "vendido",
           "link": "https://cotizador.landrada.mx/",
           "x": 0.2807,
           "y": 0.5166,
